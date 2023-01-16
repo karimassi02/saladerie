@@ -75,3 +75,27 @@ h1 {
   margin: 0 auto;
 }
 
+.mid {
+  display: flex;
+  align-items: center;
+}
+
+.reset {
+background-color: red;
+}
+
+.reset:hover {
+  background-color: rgb(209, 88, 88);
+}
+
+.checkout {
+  background-color: #19ac1e;
+}
+
+.checkout:hover {
+  background-color: #4b9c4e;
+}
+
+span {
+  color: red;
+}
