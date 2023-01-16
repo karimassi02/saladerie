@@ -6,7 +6,7 @@ import { useState } from "react"
 function Accueil() {
     let navigate = useNavigate()
     const [username, setUsername] = useState("")
-    const myOrderId = Math.random() * 10000000000000000
+    const myOrderId = "Your order ID is: " + Math.random() * 10000000000000000
     const handleInput = (e) => {
     setUsername(e.target.value)
 }

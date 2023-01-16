@@ -19,11 +19,59 @@
 }
 
 .magie {
-  margin-left: 20%;
+  margin-left: 1%;
 }
 
 .bg {
-  background-color: greenyellow;
+  background-color: rgb(74, 198, 107);
+  height:100vh;
 }
 
+h1 {
+  text-align: center;
+}
+
+.button {
+  transition-duration: 0.4s;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.vegebutton:hover {
+  background-color: #19ac1e; 
+  color: white;
+}
+
+.protbutton:hover {
+  background-color: #e7960a; 
+  color: white;
+}
+
+.saucebutton:hover {
+  background-color: #65c5d8; 
+  color: white;
+}
+
+.removebutton:hover {
+  background-color: #ff0000; 
+  color: white;
+  border-radius: 12px;
+}
+
+.div1 {
+  width:33.33%;
+  float: left;
+}
+
+.div2 {
+  width:33.33%;
+  float:right;
+}
+
+.div3 {
+  width:33.33%;
+  margin: 0 auto;
+}
 
