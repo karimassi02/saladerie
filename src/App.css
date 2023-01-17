@@ -99,3 +99,40 @@ background-color: red;
 span {
   color: red;
 }
+
+.panier {
+  background-color: #82ac83;
+}
+
+form {
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+label {
+  font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.black {
+  color:black;
+}

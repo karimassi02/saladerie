@@ -7,7 +7,7 @@ import "./App.css";
 function Accueil() {
     let navigate = useNavigate()
     const [username, setUsername] = useState("")
-    const myOrderId = "Your order ID is: " + Math.random() * 10000000000000000
+    const myOrderId = Math.floor(Math.random() * 10000000000)
     const handleInput = (e) => {
     setUsername(e.target.value)
 }
@@ -15,7 +15,7 @@ function Accueil() {
       
       <div className="App">
       <header className="App-header">
-          <h1> Saladerie by Rimka </h1>
+          <h1> <i>Saladerie by Rimka</i></h1>
           <form>
             <input
               value={username}
@@ -24,9 +24,9 @@ function Accueil() {
               onChange={handleInput} />
           </form>
           <br/>
-          Your username is : <h3> {username}</h3>
-          <button onClick={()=> navigate("/Order")}> GO</button>
-          {myOrderId}
+          Your username is : <h3 class='black'> {username}</h3>
+          <button onClick={()=> navigate("/Order")}> GO</button> <br/>
+          Your Order ID is : <h3 class='black'>{myOrderId}</h3>
         </header>
       </div>
       
