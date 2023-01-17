@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import  OrderStart  from './order';
 import React from 'react'
 import Accueil from './Accueil';
+import RecapPage from './Recap'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
        <Routes>
         <Route path='/' element = {<Accueil/>} />
         <Route path='/Order' element = {<OrderStart/>} />
-
+        <Route path='/Recap' element = {<RecapPage/>} />
       </Routes>
       </>
       

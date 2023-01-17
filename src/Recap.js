@@ -8,3 +8,6 @@ return(
 )
 
 }
+
+
+export default RecapPage;

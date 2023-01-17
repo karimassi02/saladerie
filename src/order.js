@@ -4,8 +4,8 @@ import "./App.css";
 import RecapPage from './Recap';
 import Accueil from "./Accueil";
 
-let navigate = useNavigate;
 const OrderStart = () => {
+    let navigate = useNavigate();
     const [cart, setCart] = useState([]);
     const [count,setCount] = useState(5);
     const addToCart =ingredient =>(setCart([...cart,ingredient])) ;
