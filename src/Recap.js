@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+// import Accueil from "./Accueil";
 
 const RecapPage = () => {
 
@@ -17,14 +17,17 @@ return(
         <input type="email" id="email" name="email"></input>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password"></input>
-        <input type="submit" value="Submit"/>
+        <>
+        <input type="submit" value="Submit" onclick={console.log("Votre compte est crée")}/>
+        </>
+        
 
         </form>
     </div>
 
-    <div class='panier'>
-        <h1> Your order is </h1>
-        
+    <div>
+        <h1 class='panier'> Your order is </h1>
+        Sorry we cannot process your order right now as the site is under maintenance. Thank you for your patience.
     </div>
     </>
 )

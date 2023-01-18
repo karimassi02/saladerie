@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
-import RecapPage from './Recap';
-import Accueil from "./Accueil";
+
 
 const OrderStart = () => {
     let navigate = useNavigate();
@@ -62,7 +61,7 @@ const OrderStart = () => {
         <button class='protbutton button' onClick={()=>{addToCart("Shrimp");setCount(count + 0.5)}}> Shrimp </button>
         </div>
 
-        <div class='div3'>
+        <div class='div3'> <br/>
         <h2> Choose your sauce </h2>
         <button class='saucebutton button' onClick={()=>{addToCart("Sesame Ginger");setCount(count + 0.5)}}> Sesame Ginger </button><br/>
         <button class='saucebutton button' onClick={()=>{addToCart("Honey Mustard");setCount(count + 0.5)}}> Honey Mustard </button><br/>
